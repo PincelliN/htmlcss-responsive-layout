@@ -18,6 +18,10 @@ a {
   background-color: blue;
   color: black;
 }
+section{
+    margin:10% auto;
+    padding: 10% 0;
+}
 /*  header css */
 header {
   background-color: rgb(0, 132, 253);
@@ -40,9 +44,9 @@ header img {
   color: white;
 } /*  MAIN */
 /*  FIRST SECTION */
-.demo {
+/* .demo {
   padding-top: 10%;
-}
+} */
 .demo .fa-solid {
   color: rgb(0, 132, 253);
   font-size: 4rem;
@@ -87,3 +91,44 @@ header img {
 .demo .big-card>*{
     margin-bottom: 0;
 }
+/*  strategic section */
+.strategic{
+    background-color: rgb(151, 146, 228);
+    color: white;
+    text-align: center;
+}
+.strategic img{
+    width: 100%;
+}
+.strategic .container>*{
+    margin-bottom: 10%;
+}
+.strategic h2{
+    margin-bottom: 5%;
+}
+.strategic h2+p{
+    text-align: start;
+} 
+.strategic .card{
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    padding: 5% 0;
+}
+.strategic .card>*{
+    margin-bottom: 5%;
+    
+}
+.strategic .fa-solid{
+    color: black;
+}
+.strategic .button{
+    margin:5% auto;
+    width: min-content;
+    border-radius:100%;
+    background-color: rgb(151, 146, 228);
+    padding: 10px;
+    font-size: small;
+}
+
+

@@ -38,7 +38,24 @@
 .demo .big-card-img {
     width: 40%;
 }
-
+/*  Strategic Planning */
+.strategic .container{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.strategic .container>.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.strategic .col-img{
+    margin-bottom: 50%;
+}
+.strategic .col{
+    width: 45%;
+}
 
 
 
