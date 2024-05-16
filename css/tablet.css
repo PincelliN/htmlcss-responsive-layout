@@ -41,7 +41,20 @@
     text-align: start;
     margin-left: 5%;
 }
-
+/* Benefits */
+.benefits .card-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.benefits .card{
+    width: 45%;
+}
+.benefits .button{
+    width: 45%;
+    
+    
+}
 
 
 
