@@ -2,5 +2,38 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.button{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px 20px;
+     margin: 10px 20px; 
+}
+header{
+    background-color: blue;
    
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:8vh ; 
+}
+
+header img{
+    width: 80%;
+    margin:10% 0;
+}
+.list-nav{
+    display: none;
+}
+
+.fa-solid{
+    color: white;
 }
