@@ -1,39 +1,89 @@
-*{
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* General rules */
+a {
+  color: white;
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+.button {
+  border-radius: 25px;
+  padding: 5px 20px;
+  background-color: blue;
+  color: black;
+}
+/*  header css */
+header {
+  background-color: rgb(0, 132, 253);
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+}
+header img {
+  width: 80%;
+  margin: 10% 0;
+}
+.list-nav {
+  display: none;
+}
+
+.fa-solid {
+  color: white;
+} /*  MAIN */
+/*  FIRST SECTION */
+.demo {
+  padding-top: 10%;
+}
+.demo .fa-solid {
+  color: rgb(0, 132, 253);
+  font-size: 4rem;
+}
+/* general card */
+.demo .card {
+  background-color: rgb(181, 221, 255);
+  border-radius: 25px;
+  padding: 5%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.demo .big-card-text>*,
+.demo .card>*{
+    margin-bottom: 5%;
+}
+.demo .big-card{
     padding: 0;
-    margin: 0;
-    box-sizing: border-box;
 }
-a{
-    color: white;
-    text-decoration: none;
+.demo .big-card-text {
+  text-align: start;
+  padding: 5%;
 }
-.button{
-    border: 1px solid black;
-    border-radius: 25px;
-    padding: 5px 20px;
-     margin: 10px 20px; 
-}
-header{
-    background-color: blue;
-   
-}
-.container{
-    margin: 0 auto;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height:8vh ; 
+.demo .button {
+  display: block;
+  width: 80%;
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 132, 253);
 }
 
-header img{
-    width: 80%;
-    margin:10% 0;
+.demo .big-card-img > img {
+  width: 100%;
+  
 }
-.list-nav{
-    display: none;
+.demo h2{
+    color: rgb(0, 132, 253);
 }
-
-.fa-solid{
-    color: white;
+.demo .card>*{
+    margin-bottom: 5%;
+}
+.demo .big-card>*{
+    margin-bottom: 0;
 }

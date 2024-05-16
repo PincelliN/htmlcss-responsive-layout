@@ -1,4 +1,8 @@
 @media screen and (min-width:1025px) {
+    .container{
+        width: 70%;
+    }
+    /* header  */
     .list-nav{
         display: block;
         width: 50%;
@@ -16,4 +20,28 @@
     .bars-nav{
         display: none;
     }
+
+/* MAIN */
+/* Demo Section */
+.demo .big-card{
+    flex-direction: row;
+    justify-content: flex-start;
+   align-items: end;
+}
+.demo .big-card-img > img {
+    width: 100%;
+}
+.demo .big-card-text{
+    width: 50%;
+    justify-content: flex-start;
+}
+.demo .big-card-img {
+    width: 40%;
+}
+
+
+
+
+
+
 }
