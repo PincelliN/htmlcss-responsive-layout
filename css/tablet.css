@@ -51,11 +51,27 @@
     width: 45%;
 }
 .benefits .button{
-    width: 45%;
-    
-    
+    width: 45%; 
 }
-
+/* About us */
+.about-us .container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-us .container>div{
+    width: 50%;
+}
+.about-us .container>.card{
+    width: 40%;
+}
+.about-us .card>.button{
+    width: 90%;
+    font-size: 30px;
+}
+/* footer */
+footer .container{
+    width: 65%;
+}
 
 
 

@@ -61,8 +61,13 @@
 .benefits .card{
     width: calc(100% / 3 - 10px);
 }
-
-
+/* get-start */
+.get-start .container{
+    width: 50%;
+}
+footer .container{
+    width: 50%;
+}
 
 
 }

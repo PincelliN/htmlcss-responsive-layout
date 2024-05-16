@@ -145,7 +145,7 @@ header img {
     color: white;
 }
 .testimonials .card>img{
-    width:70%;
+    width:100%;
     aspect-ratio: 1/1;
     border-radius: 50%;
     margin: 5% auto;
@@ -185,5 +185,68 @@ header img {
 .benefits .card>*{
     margin-bottom: 5%;
 }
+/* About Us */
+.about-us img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+.about-us h3,
+.about-us h2{
+    color:rgb(151, 146, 228);
+}
+.about-us .button{
+    color: white;
+    background-color: rgb(151, 146, 228);
+    width: 70%;
+    text-align: center;
+    line-height: 25px;
+}
 
+.about-us .container *{
+    margin-bottom: 5%;
+}
+/* get-start */
+.get-start{
+    background-color:rgb(151, 146, 228);
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+}
+.get-start .container>*{
+    margin-bottom: 5%;
+}
+.get-start h1{
+    color:rgb(253, 193, 95);
+}
+.get-start .button{
+    background-color: white;
+    color:rgb(151, 146, 228);
+    padding: 5% 0;
+    width: 80%;
+    margin: 5% auto;
+}
 
+.get-start li{
+    display: contents;
+    list-style: circle;
+    font-size: x-large;
+}
+.get-start li>a{
+    text-decoration: underline;
+    
+}
+/*  footer */
+footer{
+    background-color:rgb(51, 51, 51);
+    color: white;
+}
+
+footer *{
+    padding: 5% 0;
+    margin-bottom: 5%;
+}
+footer a{
+    color: violet;
+    text-decoration: underline;
+}
