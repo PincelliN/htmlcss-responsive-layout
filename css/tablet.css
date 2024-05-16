@@ -23,7 +23,24 @@
 .demo .big-card-img > img {
   width: 60%;
 }
+/* Testimonials */
+.testimonials h3{
+    font-size: 25px;
+}
+.testimonials .card{
+    display: flex;
+    align-items: center;
+}
 
+.testimonials .card>img{
+    width: 30%;
+    margin-left: 5%;
+}
+.testimonials .card>div{
+    width: 70%;
+    text-align: start;
+    margin-left: 5%;
+}
 
 
 
