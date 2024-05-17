@@ -1,3 +1,7 @@
+:root{
+    --header-color: rgb(0, 132, 253);
+    --main-color: rgb(151, 146, 228);
+}
 * {
   padding: 0;
   margin: 0;
@@ -25,7 +29,7 @@ section{
 }
 /*  header css */
 header {
-  background-color: rgb(0, 132, 253);
+  background-color: var(--header-color);
 }
 header .container {
   display: flex;
@@ -49,7 +53,7 @@ header img {
   padding-top: 10%;
 } */
 .demo .fa-solid {
-  color: rgb(0, 132, 253);
+  color: var(--header-color);
   font-size: 4rem;
 }
 /* general card */
@@ -76,7 +80,7 @@ header img {
   width: 80%;
   text-align: center;
   color: white;
-  background-color: rgb(0, 132, 253);
+  background-color:var(--header-color);
 }
 
 .demo .big-card-img > img {
@@ -84,7 +88,7 @@ header img {
   
 }
 .demo h2{
-    color: rgb(0, 132, 253);
+    color: var(--header-color);
 }
 .demo .card>*{
     margin-bottom: 5%;
@@ -94,7 +98,7 @@ header img {
 }
 /*  strategic section */
 .strategic{
-    background-color: rgb(151, 146, 228);
+    background-color:var(--main-color);
     color: white;
     text-align: center;
 }
@@ -127,7 +131,7 @@ header img {
     margin:5% auto;
     width: min-content;
     border-radius:100%;
-    background-color: rgb(151, 146, 228);
+    background-color:var(--main-color);
     padding: 10px;
     font-size: small;
 }
@@ -136,13 +140,13 @@ header img {
     text-align: center;
 }
 .testimonials h3{
-    color:  rgb(151, 146, 228);
+    color: var(--main-color);
     font-size: 32px;
 }
 .testimonials .card{
     margin: 5% auto;
     border-radius: 25px;
-    background-color:  rgb(151, 146, 228);
+    background-color: var(--main-color);
     color: white;
 }
 .testimonials .card>img{
@@ -157,7 +161,7 @@ header img {
 }
 /* Benefits */
 .benefits{
-    background-color:rgb(151, 146, 228) ;
+    background-color:var(--main-color) ;
     color: white;
 }
 .benefits .card{
@@ -174,13 +178,13 @@ header img {
 }
 .benefits h1,
 .benefits h3{
-    color: rgb(151, 146, 228);
+    color:var(--main-color);
 }
 
 .benefits .button{
     width: 30%;
     text-align: center;
-    background-color: rgb(151, 146, 228);
+    background-color:var(--main-color);
     color: white;
 }
 .benefits .card>*{
@@ -194,11 +198,11 @@ header img {
 }
 .about-us h3,
 .about-us h2{
-    color:rgb(151, 146, 228);
+    color:var(--main-color);
 }
 .about-us .button{
     color: white;
-    background-color: rgb(151, 146, 228);
+    background-color:var(--main-color);
     width: 70%;
     text-align: center;
     line-height: 25px;
@@ -209,7 +213,7 @@ header img {
 }
 /* get-start */
 .get-start{
-    background-color:rgb(151, 146, 228);
+    background-color:var(--main-color);
     color: white;
     margin-bottom: 0;
     text-align: center;
@@ -222,7 +226,7 @@ header img {
 }
 .get-start .button{
     background-color: white;
-    color:rgb(151, 146, 228);
+    color:var(--main-color);
     padding: 5% 0;
     width: 80%;
     margin: 5% auto;
@@ -248,6 +252,6 @@ footer *{
     margin-bottom: 5%;
 }
 footer a{
-    color: violet;
+    color: var(--main-color);
     text-decoration: underline;
 }
