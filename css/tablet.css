@@ -5,7 +5,7 @@
     --out:6%;
 }
 body{
-    font-size: 17px;
+    font-size: 16px;
 }
    .demo .container{
     display: flex;
@@ -74,8 +74,17 @@ body{
     justify-content: space-between;
     align-items: flex-start;
 }
+.about-us img{
+    width: 80%;
+}
+.about-us h2{
+    font-size: 40px;
+}
 .about-us .container>div{
     width: 50%;
+}
+.about-us .container>div>*{
+    margin-bottom: var(--in);
 }
 .about-us .container>.card{
     width: 40%;

@@ -100,7 +100,7 @@ header img {
 
 .demo .big-card-img > img {
   width: 100%;
-  
+  margin-bottom: -1%;
 }
 .demo h2{
     color: var(--header-color);
@@ -132,8 +132,8 @@ header img {
 }
 .strategic .button{
     margin:5% auto;
-    width: min-content;
-    aspect-ratio: 1/1;
+    width: 34px;
+    
     border-radius:100%;
     background-color:var(--main-color);
     padding: 10px;
@@ -146,9 +146,17 @@ header img {
 .testimonials{
     text-align: center;
 }
+.testimonials h4{
+    font-weight: lighter;
+    font-size: 100%;
+}
 .testimonials h3{
     color: var(--main-color);
     font-size: 32px;
+}
+.testimonials strong{
+    font-size: 150%;
+    font-weight: bolder;
 }
 .testimonials .card{
     background-color: var(--main-color);
@@ -176,9 +184,12 @@ header img {
     text-align: center;
     font-size: 30px;
 }
-.benefits h1,
-.benefits h3{
+.benefits h3,
+.benefits h4{
     color:var(--main-color);
+}
+.benefits h3{
+    font-size: 200%;
 }
 .benefits .button{
     width: 30%;
@@ -196,6 +207,9 @@ header img {
 .about-us h2{
     color:var(--main-color);
 }
+.about-us h2{
+    font-size: 60px;
+}
 .about-us .button{
     color: white;
     background-color:var(--main-color);
@@ -203,9 +217,7 @@ header img {
     text-align: center;
     line-height: 25px;
 }
- .about-us .container *{
-    margin-bottom: var(--in);
-} 
+
 /* get-start */
 .get-start{
     background-color:var(--main-color);
@@ -215,6 +227,9 @@ header img {
 }
 .get-start h3{
     font-weight: lighter;
+}
+.get-start h2{
+    font-size: 250%;
 }
 .get-start h1{
     color:rgb(253, 193, 95);
@@ -242,7 +257,7 @@ footer{
 }
 footer *{
      padding: 2% 0; 
-    margin-bottom: var(--in);
+     margin-bottom: var(--in); 
     text-align: center;
 }
 footer a{
