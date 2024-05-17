@@ -1,11 +1,24 @@
+
 @media screen and (min-width:570px) {
+    :root{
+    --in:4%;
+    --out:6%;
+}
+body{
+    font-size: 17px;
+}
    .demo .container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
    } 
+   section {
+    padding: 5% 0;
+   }
    .demo .card{
     width: calc(100%/ 3 - 10px);
+    margin: 3% auto;
     
    }
    .demo .big-card{
@@ -14,6 +27,9 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+   }
+   .demo h2{
+    font-size: 100%;
    }
 
    .demo .big-card-img{
@@ -33,11 +49,10 @@
 }
 
 .testimonials .card>img{
-    width: 30%;
-    margin-left: 5%;
+    width: 40%;
 }
 .testimonials .card>div{
-    width: 70%;
+    width: 60%;
     text-align: start;
     margin-left: 5%;
 }
@@ -57,16 +72,19 @@
 .about-us .container{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 .about-us .container>div{
     width: 50%;
 }
 .about-us .container>.card{
     width: 40%;
+    margin: 0 auto;
+    padding: 0;
 }
 .about-us .card>.button{
-    width: 90%;
-    font-size: 30px;
+    width: 100%;
+    font-size: 64%;
 }
 /* footer */
 footer .container{

@@ -1,6 +1,8 @@
 :root{
     --header-color: rgb(0, 132, 253);
     --main-color: rgb(151, 146, 228);
+    --out:7%;
+    --in:5%;
 }
 * {
   padding: 0;
@@ -23,7 +25,6 @@ a {
 .button {
   border-radius: 25px;
   padding: 5px 20px;
-  background-color: blue;
   color: black;
 }
 section{
@@ -34,6 +35,14 @@ section{
     margin: 5% auto;
     border-radius: 25px;
     padding: 5%;
+    margin-bottom: var(--out);
+}
+.card>*{
+    margin-bottom: var(--in);
+}
+ main .container>*,
+ footer .container>*{
+    margin-bottom: var(--out);
 }
 /*  header css */
 header {
@@ -42,6 +51,7 @@ header {
   right: 0;
   left: 0;
   top: 0;
+  height: 8vh;
 }
 header .container {
   display: flex;
@@ -61,9 +71,7 @@ header img {
   color: white;
 } /*  MAIN */
 /*  FIRST SECTION */
-.demo{
-    margin-top: 10%;
-}
+
 .demo .fa-solid {
   color: var(--header-color);
   font-size: 4rem;
@@ -72,9 +80,8 @@ header img {
   background-color: rgb(181, 221, 255);
   text-align: center;
 }
-.demo .big-card-text>*,
-.demo .card>*{
-    margin-bottom: 5%;
+.demo .big-card-text>*{
+    margin-bottom: var(--in);
 }
 .demo .big-card{
     padding: 0;
@@ -98,9 +105,6 @@ header img {
 .demo h2{
     color: var(--header-color);
 }
-.demo .card>*{
-    margin-bottom: 5%;
-}
 .demo .big-card>*{
     margin-bottom: 0;
 }
@@ -113,21 +117,15 @@ header img {
 .strategic img{
     width: 100%;
 }
-.strategic .container>*{
-    margin-bottom: 10%;
-}
-.strategic h2{
-    margin-bottom: 5%;
-}
+ .strategic h2{
+    margin-bottom: var(--in);
+} 
 .strategic h2+p{
     text-align: start;
 } 
 .strategic .card{
     background-color: white;
     color: black;
-}
-.strategic .card>*{
-    margin-bottom: 5%;   
 }
 .strategic .fa-solid{
     color: black;
@@ -140,6 +138,9 @@ header img {
     background-color:var(--main-color);
     padding: 10px;
     font-size: small;
+}
+.col>*{
+    margin-bottom: var(--out);
 }
 /* Testimonials */
 .testimonials{
@@ -159,7 +160,9 @@ header img {
     border-radius: 50%;
     margin: 5% auto;
 }
-
+.testimonials .card>div>*{
+    margin-bottom: var(--in);
+}
 /* Benefits */
 .benefits{
     background-color:var(--main-color) ;
@@ -183,9 +186,6 @@ header img {
     background-color:var(--main-color);
     color: white;
 }
-.benefits .card>*{
-    margin-bottom: 5%;
-}
 /* About Us */
 .about-us img{
     width: 60%;
@@ -203,9 +203,9 @@ header img {
     text-align: center;
     line-height: 25px;
 }
-.about-us .container *{
-    margin-bottom: 5%;
-}
+ .about-us .container *{
+    margin-bottom: var(--in);
+} 
 /* get-start */
 .get-start{
     background-color:var(--main-color);
@@ -213,8 +213,8 @@ header img {
     margin-bottom: 0;
     text-align: center;
 }
-.get-start .container>*{
-    margin-bottom: 5%;
+.get-start h3{
+    font-weight: lighter;
 }
 .get-start h1{
     color:rgb(253, 193, 95);
@@ -230,7 +230,7 @@ header img {
 .get-start li{
     display: contents;
     list-style: circle;
-    font-size: x-large;
+    font-size: large;
 }
 .get-start li>a{
     text-decoration: underline; 
@@ -241,8 +241,8 @@ footer{
     color: white;
 }
 footer *{
-    padding: 5% 0;
-    margin-bottom: 5%;
+     padding: 2% 0; 
+    margin-bottom: var(--in);
     text-align: center;
 }
 footer a{

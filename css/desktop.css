@@ -1,42 +1,79 @@
 @media screen and (min-width:1025px) {
+    :root{
+        --in:5%;
+        --out:8%;
+    }
     .container{
         width: 70%;
     }
     /* header  */
     .list-nav{
-        display: block;
-        width: 50%;
+        display:flex;  
     }
+
     .list-nav ul{
         list-style: none;
         display: flex;
         justify-content: space-between;
-       
+        align-items: center;
+        font-size: 16px;
+    }
+    .list-nav li{
+        display: inline;
+        width: max-content;
+         margin-right: 20px;
+         
     }
     header .button{
         background-color: white;
         color: black;
+        margin: 0;
+        padding: 0;
     }
     .bars-nav{
         display: none;
+    } /* demo sectiom */
+    .demo .card {
+        margin: 1% auto;
     }
-
+    /* testimonial */
+.testimonials .card{
+    padding: 0;
+    align-items: flex-end;
+}
+.testimonials .card>img{
+    width: 25%;
+}
+.testimonials .card>div{
+    width: 60%;
+    text-align: start;
+    margin-left: 5%;
+}
+/* about us */
+.about-us .card>.button {
+        width: 50%;
+        font-size: 64%;
+    }
 /* MAIN */
 /* Demo Section */
 .demo .big-card{
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
-   align-items: end;
+   align-items: flex-start;
 }
 .demo .big-card-img > img {
     width: 100%;
 }
 .demo .big-card-text{
-    width: 50%;
-    justify-content: flex-start;
+    width: 50%; 
+}
+.demo .big-card-text>{
+    margin-bottom:var(--in) ;
 }
 .demo .big-card-img {
     width: 40%;
+    align-self: self-end;
 }
 /*  Strategic Planning */
 .strategic .container{
