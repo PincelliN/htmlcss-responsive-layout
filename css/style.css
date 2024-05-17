@@ -9,6 +9,9 @@
   font-family: "PT Sans", sans-serif;
 }
 /* General rules */
+body{
+    font-size: 16px;
+}
 a {
   color: white;
   text-decoration: none;
@@ -24,12 +27,21 @@ a {
   color: black;
 }
 section{
-    margin:10% auto;
-    padding: 10% 0;
+    margin:0 auto;
+    padding: 10% 0; 
+}
+.card{
+    margin: 5% auto;
+    border-radius: 25px;
+    padding: 5%;
 }
 /*  header css */
 header {
   background-color: var(--header-color);
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
 }
 header .container {
   display: flex;
@@ -49,20 +61,16 @@ header img {
   color: white;
 } /*  MAIN */
 /*  FIRST SECTION */
-/* .demo {
-  padding-top: 10%;
-} */
+.demo{
+    margin-top: 10%;
+}
 .demo .fa-solid {
   color: var(--header-color);
   font-size: 4rem;
 }
-/* general card */
 .demo .card {
   background-color: rgb(181, 221, 255);
-  border-radius: 25px;
-  padding: 5%;
   text-align: center;
-  margin-bottom: 5%;
 }
 .demo .big-card-text>*,
 .demo .card>*{
@@ -116,13 +124,10 @@ header img {
 } 
 .strategic .card{
     background-color: white;
-    border-radius: 25px;
     color: black;
-    padding: 5% 0;
 }
 .strategic .card>*{
-    margin-bottom: 5%;
-    
+    margin-bottom: 5%;   
 }
 .strategic .fa-solid{
     color: black;
@@ -130,6 +135,7 @@ header img {
 .strategic .button{
     margin:5% auto;
     width: min-content;
+    aspect-ratio: 1/1;
     border-radius:100%;
     background-color:var(--main-color);
     padding: 10px;
@@ -144,21 +150,16 @@ header img {
     font-size: 32px;
 }
 .testimonials .card{
-    margin: 5% auto;
-    border-radius: 25px;
     background-color: var(--main-color);
     color: white;
 }
 .testimonials .card>img{
-    width:100%;
+    width:60%;
     aspect-ratio: 1/1;
     border-radius: 50%;
     margin: 5% auto;
 }
-.testimonials .card p{
-    margin: 5% auto;
-    padding: 5% 0;
-}
+
 /* Benefits */
 .benefits{
     background-color:var(--main-color) ;
@@ -167,20 +168,15 @@ header img {
 .benefits .card{
     background-color: white;
     color: black;
-    border-radius: 25px;
-    padding: 5%;
-    margin: 5% auto;
 }
 .benefits h2{
     text-align: center;
     font-size: 30px;
-
 }
 .benefits h1,
 .benefits h3{
     color:var(--main-color);
 }
-
 .benefits .button{
     width: 30%;
     text-align: center;
@@ -192,7 +188,7 @@ header img {
 }
 /* About Us */
 .about-us img{
-    width: 100%;
+    width: 60%;
     aspect-ratio: 1/1;
     border-radius: 50%;
 }
@@ -207,7 +203,6 @@ header img {
     text-align: center;
     line-height: 25px;
 }
-
 .about-us .container *{
     margin-bottom: 5%;
 }
@@ -223,6 +218,7 @@ header img {
 }
 .get-start h1{
     color:rgb(253, 193, 95);
+    font-size: 80px;
 }
 .get-start .button{
     background-color: white;
@@ -231,25 +227,23 @@ header img {
     width: 80%;
     margin: 5% auto;
 }
-
 .get-start li{
     display: contents;
     list-style: circle;
     font-size: x-large;
 }
 .get-start li>a{
-    text-decoration: underline;
-    
+    text-decoration: underline; 
 }
 /*  footer */
 footer{
     background-color:rgb(51, 51, 51);
     color: white;
 }
-
 footer *{
     padding: 5% 0;
     margin-bottom: 5%;
+    text-align: center;
 }
 footer a{
     color: var(--main-color);
